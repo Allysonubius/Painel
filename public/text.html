@@ -1,0 +1,103 @@
+<!--Painel de relatório sobre o Covid-19-->
+<!--Projeto relalizado com fontes open source nesta aplicação.-->
+<!--HTML5-->
+<!DOCTYPE html>
+<!--Linguagem do site-->
+<html lang="en">
+
+<head>
+    <!--Titulo da pagina index.html-->
+    <title>COVID-19 Info</title>
+    <!--Leitor de caracteres do site-->
+    <meta charset="utf-8" />
+    <!--Compatibilidade para aparelhos-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Favicon-->
+    <link rel="icon" href="img/logo/Covid-19-logo.png">
+    <!--Menu-->
+    <link rel="stylesheet" type="text/css" href="css/menu.css"> 
+    <!--Texto-->
+    <link rel="stylesheet" type="text/css" href="css/texto.css">
+    <!--Rodape-->
+    <link rel="stylesheet" type="text/css" href="css/rodape.css">
+    <!-- bootstrap arquivo-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <!--Bootsrap net-->
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"crossorigin="anonymous"
+    />
+</head>
+
+<body>
+    <!--Conteudo-->
+
+    <head class="container-fluid">
+        <!--Menu-->
+        <nav class="fixed-top container-fluid navbar navbar-expand-sm navbar-dark bg-dark font-weight-bold">
+            <!--Logo-->
+            <a class=" navbar-brand mr-sm-0 mr-md-2 " href="index.html">
+                <img src="img/logo/Covid-19-logo.png" width="40" height="40" class="d-sm-inline-block align-top" cursor="pointer" aria-label="Covid-19 Info">
+                <span class="text-logo">Covid-19 Info</span>
+            </a>
+            <!--Paginas-->
+            <ul class="navbar-nav ml-sm-auto">
+                <li class="nav-item ">
+                    <a class="nav-link nav-link-text" href="index.html">Relatórios</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link nav-link-text" href="text.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+        <!--Conteudo-->
+        <!--Conteudo-->
+        <main class="container py-sm-5">
+            <!--Capa introdutória da página-->
+            <div class=" py-sm-5">
+                <img class="container" src="img/Capa/covid19.jpg" height="600" width="1200" alt="COVID-19">
+                <h6 class="container py-sm-1 text-center">Foto retirada do site:
+                    <a href="https://www.paho.org/bra/images/covid19-folhainformativa-1000px-shutterstock-Corona-Borealis-Studio.jpg">www.paho.org</a>
+                </h6>
+            </div>
+            <!--Contexto inicial-->
+            <div class="container">
+                <h1 class="text-center py-sm-5 font-weight-bold">Painel de informações sobre o Covid-19</h1>
+                <p class="text-justify py-sm-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O objetivo desta página e destacar o desenvolvimento da <i>Covid-19.</i> em uma aplicação resumida fazendo a emissão de relatórios sobre o <i>Covid-19.</i></p>
+            </div>
+            <div class="container">
+                <ul >
+                    <p>Esta aplicação permite que o usúario faças as seguintes escolhas:</p>
+                    <ol>Casos confirmados acumulados;</ol>
+                    <ol>Novos casos no dia;</ol>
+                    <ol>Obitos acumulados;</ol>
+                    <ol>Obitos no dia;</ol>
+                    <ol>Indice de Mortalidade(%)</ol>
+                    <ol>Indice de recuperação(%)</ol> 
+               </ul>
+            </div>
+            <div>
+                <ul> O Front-End desta aplicação foi desenvolvido em VueJs, desenvolvido de um projeto no GitHub <i> Open Source<i> <a href="https://github.com/henryz00/COVID-19-Timeline-Data-Visualizer"> COVID 19 Original Open Source</a>.</ul>
+                <ul> O codigo esta disponibilizado no Github acesse em <a href="https://github.com/Allysonubius/Covid-19-Timeline-PT-BR">Covid 19 Timeline - PT-BR</a></ul>
+            </div>
+            <div>
+                <h4 class="text-center py-sm-5">Explicação sobre o projeto por<a href="https://www.linkedin.com/in/allyson-de-oliveira-6b3596164/"> Allyson </a> - Desenvolvedor Full Stack iniciante.</h4>
+                <p class="text-justify">Olá,</p>
+                <p class="text-justify">iniciei este projeto com entusiasmo em faze-lo, no entanto por não ter um bom conhecimento sobre a linguagem VueJs em ser um desenvolvedor iniciante optei em entrar no <a href="http://github.com/"> GitHub </a> e ir pesquisando alguma biblioteca que tivesse algo parecido com o pedido do meu entrevistador <a> Lucas </a>, inesperado acabei encontrando um codigo Front End <i>open source<i> na linguagem <i>Chinesa</i> e <i>Inglesa</i> onde por proveito realizei a tradução do codigo após ter assistido algumas videos aulas completas sobre VueJS no canal do <a href="https://www.youtube.com/playlist?list=PLWNaqtzH6CWR-dykXeDD5XmMzJur9JBIh">ProgrAmada Mente</a> onde antes de sair alterando qualquer linha de codigo pude conhecer para alterar os comandos para exibir na página.</p>
+                <p class="py-sm-3">Pelo que realizei em buscar trazer sem conhecer a linguagem VueJS espero que possa atender o pedido .</p>
+                <p class="text-center py-sm-3">Aqui estará os 3 links onde refiz 3 vezes este projeto até conseguir adaptar para entregar funcionando.</p>
+                <p class="text-muted">1 - Teste deu errado <a href="https://github.com/Allysonubius/Painel-Covid-19"> Painel-Covid-19</a> no GitHub.</p>
+                <p class="text-muted">2 - Teste deu errado <a href="https://github.com/Allysonubius/PainelCovid19"> painelCvodi-19</a> no GitHub.</p>
+                <p class="text-muted">3 - Teste funcionadno <a href="https://github.com/Allysonubius/Covid-19-Timeline-PT-BR"> Covid-19-Timeline-PT-BR</a> no GitHub.</p>
+            </div>
+        </main>
+    </head>
+            <!--Rodape-->
+            <footer class="container-fluid footer mt-sm-auto py-sm-4">
+                <div class=" container ">
+                    <span class="text-muted rodape-lettres font-weight-bold font-size-text">&copy; Todos os direitos Reservados - Allyson de Oliveira Brandão - 2020 .</span>
+                </div>
+            </footer>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+/*Conteudo produzido por Allyson de Oliveir Brandão*/
+/*CSS-Rodape*/
+/*Classes*/
+.font-size-text{
+	font-family:"Times New Roman",sans-serif, serif, ;
+	font-size: 20px;
+}
+/*Estrutura da pagina*/
+footer{
+	background: black;
+}

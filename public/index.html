@@ -1,0 +1,74 @@
+<!--Painel de relatório sobre o Covid-19-->
+<!--Projeto relalizado com fontes open source nesta aplicação.-->
+<!--HTML5-->
+<!DOCTYPE html>
+<!--Linguagem do site-->
+<html lang="en">
+
+<head>
+    <!--Titulo da pagina index.html-->
+    <title>COVID-19 Info</title>
+    <!--Leitor de caracteres do site-->
+    <meta charset="utf-8" />
+    <!--Compatibilidade para aparelhos-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Favicon-->
+    <link rel="icon" href="img/logo/Covid-19-logo.png">
+    <!--Menu-->
+    <link rel="stylesheet" type="text/css" href="css/menu.css"> 
+    <!--Texto-->
+    <link rel="stylesheet" type="text/css" href="css/texto.css">
+    <!--Rodape-->
+    <link rel="stylesheet" type="text/css" href="css/rodape.css">
+    <!-- bootstrap arquivo-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <!--Bootsrap net-->
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"crossorigin="anonymous"
+    />
+</head>
+
+<body>
+    <!--Menu-->
+    <nav class="fixed-top container-fluid navbar navbar-expand-sm navbar-dark bg-dark font-weight-bold">
+        <!--Logo-->
+        <a class=" navbar-brand mr-sm-0 mr-md-2 " href="index.html">
+            <img src="img/logo/Covid-19-logo.png" width="40" height="40" class="d-sm-inline-block align-top" cursor="pointer" aria-label="Covid-19 Info">
+            <span class="text-logo">Covid-19 Info</span>
+        </a>
+        <!--Paginas-->
+        <ul class="navbar-nav ml-sm-auto">
+            <li class="nav-item ">
+                <a class="nav-link nav-link-text" href="index.html">Relatórios</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link nav-link-text" href="text.html">Home</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="py-sm-5">
+        <!---->
+    </div>
+    <noscript class="py-sm-5">
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without
+        JavaScript enabled. Please enable it to continue.</strong> 
+    </noscript>
+    <!--Projeto em VueJs-->
+    <div id="app" class="py-sm-5"></div>
+    <!-- built files will be auto injected -->
+    <!--Rodape-->
+    <footer class="container-fluid footer mt-sm-auto py-sm-4">
+            <div class=" container ">
+                <span class="text-muted rodape-lettres font-weight-bold font-size-text">&copy; Todos os direitos Reservados - Allyson de Oliveira Brandão - 2020 .</span>
+            </div>
+        </footer>
+        <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!--Jsdelivr-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!--Bootstrap CDN-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
