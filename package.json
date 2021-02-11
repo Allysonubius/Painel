@@ -14,7 +14,7 @@
   },
   "main": "index.js",
   "dependencies": {
-    "apexcharts": "^3.18.1",
+    "apexcharts": "^3.24.0",
     "core-js": "^3.6.4",
     "countup.js": "^2.0.4",
     "csvtojson": "^2.0.10",
